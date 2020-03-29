@@ -1,0 +1,15 @@
+setuptools
+flask
+gunicorn
+docutils
+ipykernel
+jupyter
+matplotlib
+pandas
+numpy
+sklearn
+keras
+tensorflow-cpu
+opencv-python
+mtcnn
+moviepy
