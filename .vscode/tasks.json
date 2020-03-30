@@ -8,15 +8,7 @@
       "detail": "Create the new virtual environment for Python",
       "type": "shell",
       "command": [
-        "python3 -m venv venv/",
-      ]
-    },
-    {
-      "label": "venv:activate",
-      "detail": "Activate virtual environment for the consequent execution of the Python's related stuff",
-      "type": "shell",
-      "command": [
-         "source venv/bin/activate"
+        "python3 -m venv .venv/",
       ]
     },
     {
@@ -24,7 +16,7 @@
       "detail": "Install all necessary dependencies for Python",
       "type": "shell",
       "command": [
-         "pip install -r requirements.txt"
+         "source .venv/bin/activate && pip install -r requirements.txt"
       ]
     }
   ]

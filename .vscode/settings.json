@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "venv/bin/python3",
-  "python.venvPath": "venv",
+  "python.pythonPath": ".venv/bin/python3",
+  "python.venvPath": ".venv",
   "python.jediEnabled": false
 }
