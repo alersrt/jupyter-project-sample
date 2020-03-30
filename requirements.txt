@@ -5,6 +5,7 @@ jupyter
 pandas
 numpy
 sympy
+scipy
 matplotlib
 sklearn
 keras
