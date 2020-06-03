@@ -12,12 +12,21 @@
       ]
     },
     {
-      "label": "dependencies",
+      "label": "dependencies:install",
       "detail": "Install all necessary dependencies for Python",
       "type": "shell",
       "command": [
          "source .venv/bin/activate && pip install -r requirements.txt"
       ]
+    },
+    {
+      "label": "dependencies:upgrade",
+      "detail": "Upgrade all installed dependencies",
+      "type": "shell",
+      "command": [
+         "source .venv/bin/activate && pip install --upgrade -r requirements.txt"
+      ]
     }
+
   ]
 }
