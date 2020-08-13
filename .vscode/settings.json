@@ -1,5 +1,6 @@
 {
   "python.pythonPath": ".venv/bin/python",
   "python.venvPath": ".venv",
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "python.languageServer": "Microsoft"
 }
