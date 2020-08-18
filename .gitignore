@@ -1,5 +1,6 @@
 # folder
 .venv/
+.idea/
 
 # file
 *.ipynb
